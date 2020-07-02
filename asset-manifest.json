@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/goalieGuru/static/css/main.34de6062.chunk.css",
+    "main.js": "/goalieGuru/static/js/main.f6f41048.chunk.js",
+    "main.js.map": "/goalieGuru/static/js/main.f6f41048.chunk.js.map",
+    "runtime-main.js": "/goalieGuru/static/js/runtime-main.a7ed3bce.js",
+    "runtime-main.js.map": "/goalieGuru/static/js/runtime-main.a7ed3bce.js.map",
+    "static/js/2.8f996106.chunk.js": "/goalieGuru/static/js/2.8f996106.chunk.js",
+    "static/js/2.8f996106.chunk.js.map": "/goalieGuru/static/js/2.8f996106.chunk.js.map",
+    "index.html": "/goalieGuru/index.html",
+    "precache-manifest.0b72c60aef567559fb4c9b0dcc155a81.js": "/goalieGuru/precache-manifest.0b72c60aef567559fb4c9b0dcc155a81.js",
+    "service-worker.js": "/goalieGuru/service-worker.js",
+    "static/css/main.34de6062.chunk.css.map": "/goalieGuru/static/css/main.34de6062.chunk.css.map",
+    "static/js/2.8f996106.chunk.js.LICENSE.txt": "/goalieGuru/static/js/2.8f996106.chunk.js.LICENSE.txt",
+    "static/media/CoachWren.jpg": "/goalieGuru/static/media/CoachWren.4194c8e4.jpg",
+    "static/media/CoachWren2.JPG": "/goalieGuru/static/media/CoachWren2.cb6178df.JPG",
+    "static/media/GoalieGuruLogo2.png": "/goalieGuru/static/media/GoalieGuruLogo2.8778655c.png",
+    "static/media/banffAcademyBears.png": "/goalieGuru/static/media/banffAcademyBears.bac4273e.png",
+    "static/media/bulgaria.png": "/goalieGuru/static/media/bulgaria.247aa68c.png",
+    "static/media/globalGoaltending.png": "/goalieGuru/static/media/globalGoaltending.b8b5e8e0.png",
+    "static/media/moutains.jpeg": "/goalieGuru/static/media/moutains.874ef402.jpeg",
+    "static/media/oha.gif": "/goalieGuru/static/media/oha.4dcadb2e.gif",
+    "static/media/summit.png": "/goalieGuru/static/media/summit.eeb3c07f.png",
+    "static/media/usaHockey.png": "/goalieGuru/static/media/usaHockey.80272a38.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a7ed3bce.js",
+    "static/js/2.8f996106.chunk.js",
+    "static/css/main.34de6062.chunk.css",
+    "static/js/main.f6f41048.chunk.js"
+  ]
+}
