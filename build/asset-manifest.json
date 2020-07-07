@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/goalieGuru/static/css/main.34de6062.chunk.css",
-    "main.js": "/goalieGuru/static/js/main.f6f41048.chunk.js",
-    "main.js.map": "/goalieGuru/static/js/main.f6f41048.chunk.js.map",
-    "runtime-main.js": "/goalieGuru/static/js/runtime-main.a7ed3bce.js",
-    "runtime-main.js.map": "/goalieGuru/static/js/runtime-main.a7ed3bce.js.map",
-    "static/js/2.8f996106.chunk.js": "/goalieGuru/static/js/2.8f996106.chunk.js",
-    "static/js/2.8f996106.chunk.js.map": "/goalieGuru/static/js/2.8f996106.chunk.js.map",
+    "main.js": "/goalieGuru/static/js/main.6e23c8aa.chunk.js",
+    "main.js.map": "/goalieGuru/static/js/main.6e23c8aa.chunk.js.map",
+    "runtime-main.js": "/goalieGuru/static/js/runtime-main.8aa4bfca.js",
+    "runtime-main.js.map": "/goalieGuru/static/js/runtime-main.8aa4bfca.js.map",
+    "static/js/2.43a86ed4.chunk.js": "/goalieGuru/static/js/2.43a86ed4.chunk.js",
+    "static/js/2.43a86ed4.chunk.js.map": "/goalieGuru/static/js/2.43a86ed4.chunk.js.map",
     "index.html": "/goalieGuru/index.html",
-    "precache-manifest.0b72c60aef567559fb4c9b0dcc155a81.js": "/goalieGuru/precache-manifest.0b72c60aef567559fb4c9b0dcc155a81.js",
+    "precache-manifest.7a35cd297c340802ecf965e6c2707df9.js": "/goalieGuru/precache-manifest.7a35cd297c340802ecf965e6c2707df9.js",
     "service-worker.js": "/goalieGuru/service-worker.js",
     "static/css/main.34de6062.chunk.css.map": "/goalieGuru/static/css/main.34de6062.chunk.css.map",
-    "static/js/2.8f996106.chunk.js.LICENSE.txt": "/goalieGuru/static/js/2.8f996106.chunk.js.LICENSE.txt",
+    "static/js/2.43a86ed4.chunk.js.LICENSE.txt": "/goalieGuru/static/js/2.43a86ed4.chunk.js.LICENSE.txt",
     "static/media/CoachWren.jpg": "/goalieGuru/static/media/CoachWren.4194c8e4.jpg",
     "static/media/CoachWren2.JPG": "/goalieGuru/static/media/CoachWren2.cb6178df.JPG",
     "static/media/GoalieGuruLogo2.png": "/goalieGuru/static/media/GoalieGuruLogo2.8778655c.png",
@@ -24,9 +24,9 @@
     "static/media/usaHockey.png": "/goalieGuru/static/media/usaHockey.80272a38.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.a7ed3bce.js",
-    "static/js/2.8f996106.chunk.js",
+    "static/js/runtime-main.8aa4bfca.js",
+    "static/js/2.43a86ed4.chunk.js",
     "static/css/main.34de6062.chunk.css",
-    "static/js/main.f6f41048.chunk.js"
+    "static/js/main.6e23c8aa.chunk.js"
   ]
 }

@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/goalieGuru/precache-manifest.0b72c60aef567559fb4c9b0dcc155a81.js"
+  "/goalieGuru/precache-manifest.7a35cd297c340802ecf965e6c2707df9.js"
 );
 
 self.addEventListener('message', (event) => {
