@@ -34,7 +34,7 @@ class Testimonials extends Component {
           <TestimonialCard card={testimonials[2]} />
         </ColumnWrapper>
         <ColumnWrapper>
-          <TestimonialCard card={testimonials[2]} />
+          <TestimonialCard card={testimonials[1]} />
         </ColumnWrapper>
       </Wrapper>
     );
