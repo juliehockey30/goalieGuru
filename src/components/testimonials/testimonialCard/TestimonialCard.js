@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { CardBackground, Body, Name, Title } from './TestimonialCard.styled.js';
 
 class TestimonialCard extends Component {
-
   render() {
     return (
       <CardBackground>
