@@ -5,6 +5,7 @@ import NavBar from './components/navBar/NavBar.js';
 import About from './components/about/About.js';
 import Camps from './components/camps/Camps.js';
 import Testimonials from './components/testimonials/Testimonials.js';
+import Contact from './components/contact/Contact.js';
 import footerMountains from './images/moutainsFooter.png';
 
 class App extends Component {
@@ -35,6 +36,7 @@ class App extends Component {
         <About />
         <Camps />
         <Testimonials />
+        <Contact />
         <FooterImage src={footerMountains} />
       </AppWrapper>
     );

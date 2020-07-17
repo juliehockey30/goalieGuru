@@ -1,12 +1,8 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-
-  @media(min-width: 1024px) {
-    border: 6px solid #373739;
-    margin: 32px 140px;
-    border-radius: 8px;
-  }
+  text-align: center;
+  margin: 32px 0;
 `;
 
 const Header = styled.p`
@@ -15,11 +11,19 @@ const Header = styled.p`
     color: #373739;
     font-size: 54px;
     font-weight: bold;
+    margin-bottom: 16px;
     text-align: center;
   }
 `;
 
+const Email = styled.a`
+  color: #27ace2;
+  cursor: pointer;
+  font-size: 32px;
+`;
+
 export {
   Wrapper,
-  Header
-};
+  Header,
+  Email
+}
