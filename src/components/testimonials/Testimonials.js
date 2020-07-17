@@ -28,7 +28,7 @@ class Testimonials extends Component {
     const testimonials = this.getTestimonials();
 
     return (
-      <Wrapper>
+      <Wrapper id="testimonials">
         <ColumnWrapper>
           <TestimonialCard card={testimonials[0]} />
           <TestimonialCard card={testimonials[2]} />
