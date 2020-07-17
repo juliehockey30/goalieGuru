@@ -4,7 +4,7 @@ const Wrapper = styled.div`
   align-items: center;
   display: flex;
   flex-direction: row;
-  margin-top: 32px;
+  margin: 32px 0 0 32px;
 `;
 
 const ColumnWrapper = styled.div`
