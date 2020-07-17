@@ -20,6 +20,7 @@ const MarqueeGradient = styled.div`
 `;
 
 const MarqueeImage = styled.img`
+  width: 100%;
 
   @media(min-width: 1024px) {
     width: 100%;
@@ -27,12 +28,13 @@ const MarqueeImage = styled.img`
 `;
 
 const MarqueeLogo = styled.img`
-  height: 300px;
+  height: 50px;
   position: absolute;
-  top: 35px;
+  top: 10px;
 
   @media(min-width: 1024px) {
     height: unset;
+    top: 35px;
     width: 60%;
     z-index: 2;
   }

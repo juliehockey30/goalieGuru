@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
-import { AppWrapper } from './App.styled.js';
+import { AppWrapper, FooterImage } from './App.styled.js';
 import Marquee from './components/marquee/Marquee.js';
 import NavBar from './components/navBar/NavBar.js';
 import About from './components/about/About.js';
 import Camps from './components/camps/Camps.js';
+import Testimonials from './components/testimonials/Testimonials.js';
+import footerMountains from './images/moutainsFooter.png';
 
 class App extends Component {
   constructor(props){
@@ -32,6 +34,8 @@ class App extends Component {
         <Marquee />
         <About />
         <Camps />
+        <Testimonials />
+        <FooterImage src={footerMountains} />
       </AppWrapper>
     );
   }

@@ -1,8 +1,10 @@
 import styled from 'styled-components';
 
 const NavigationWrapper = styled.div`
+  display: none;
 
   @media(min-width: 1024px) {
+    display: block;
     position: fixed;
     right: 0;
     top: 30px;

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import CampCard from './campCard/CampCard';
 import {
   Wrapper,
+  Header,
 } from './Camps.styled.js';
 
 class Camps extends Component {
@@ -13,6 +14,7 @@ class Camps extends Component {
   render() {
     return (
       <Wrapper id="camps">
+        <Header>Upcoming Camps and Clinics</Header>
         <CampCard
           title="Fall Clinic 2020"
           dates="September 26-27"

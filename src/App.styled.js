@@ -8,8 +8,23 @@ const AppWrapper = styled.div`
 
   @import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
   font-family: 'Roboto Condensed';
+
+  max-width: 100%;
+  overflow-x: hidden;
+
+  @media(min-width: 1024px) {
+    max-width: 3000px;
+  }
+`;
+
+const FooterImage = styled.img`
+
+  @media(min-width: 1024px) {
+    width: 100%;
+  }
 `;
 
 export {
-  AppWrapper
+  AppWrapper,
+  FooterImage
 };

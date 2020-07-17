@@ -11,7 +11,7 @@ class CampCard extends Component {
     return (
       <Wrapper>
         <Title>{this.props.title}</Title>
-        <DateAndLocation>{this.props.dates}7</DateAndLocation>
+        <DateAndLocation>{this.props.dates}</DateAndLocation>
         <DateAndLocation>{this.props.location}</DateAndLocation>
         <RegisterButton href={this.props.registerLink}>Register Now!</RegisterButton>
       </Wrapper>

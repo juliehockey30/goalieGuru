@@ -17,6 +17,13 @@ const Wrapper = styled.div`
   }
 `;
 
+const StyledList = styled.ul`
+
+  @media(min-width: 1024px) {
+    margin-bottom: 0;
+  }
+`;
+
 const JobWrapper = styled.div`
 
   @media(min-width: 1024px) {
@@ -24,6 +31,7 @@ const JobWrapper = styled.div`
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    height: 56px;
   }
 `;
 
@@ -46,13 +54,15 @@ const LogoWrapper = styled.div`
 const JobLogo = styled.img`
 
   @media(min-width: 1024px) {
-    margin: 0 12px;
-    max-height: 75px;
+    margin: 0 56px;
+    max-height: 150px;
+    max-width: 500px;
   }
 `;
 
 export {
   Wrapper,
+  StyledList,
   JobWrapper,
   LogoWrapper,
   JobTime,

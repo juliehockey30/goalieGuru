@@ -1,12 +1,10 @@
 import React, { Component } from 'react';
-import banffAcademyBears from '../../../images/jobLogos/banffAcademyBears.png';
 import bulgaria from '../../../images/jobLogos/bulgaria.png';
 import globalGoaltending from '../../../images/jobLogos/globalGoaltending.png';
-import oha from '../../../images/jobLogos/oha.gif';
-import summit from '../../../images/jobLogos/summit.png';
 import usaHockey from '../../../images/jobLogos/usaHockey.png';
 import {
   Wrapper,
+  StyledList,
   JobWrapper,
   JobTime,
   LogoWrapper,
@@ -23,7 +21,7 @@ class History extends Component {
   render() {
     return (
       <Wrapper>
-        <ul>
+        <StyledList>
           <JobWrapper>
             <li>Goalie Coach Bulgarian National Team IIHF Division 2</li>
             <JobTime>(2017-Present)</JobTime>
@@ -48,14 +46,11 @@ class History extends Component {
             <li>Goaltending Coach - Okanagan Hockey School</li>
             <JobTime>(2006-2009)</JobTime>
           </JobWrapper>
-        </ul>
+        </StyledList>
         <LogoWrapper>
           <JobLogo src={bulgaria} />
           <JobLogo src={usaHockey} />
           <JobLogo src={globalGoaltending} />
-          <JobLogo src={summit} />
-          <JobLogo src={banffAcademyBears} />
-          <JobLogo src={oha} />
         </LogoWrapper>
       </Wrapper>
     );

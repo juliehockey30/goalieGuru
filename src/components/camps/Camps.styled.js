@@ -7,6 +7,17 @@ const Wrapper = styled.div`
   }
 `;
 
+const Header = styled.p`
+
+  @media(min-width: 1024px) {
+    color: #373739;
+    font-size: 54px;
+    font-weight: bold;
+    text-align: center;
+  }
+`;
+
 export {
-  Wrapper
+  Wrapper,
+  Header
 };
