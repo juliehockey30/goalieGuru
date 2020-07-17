@@ -20,6 +20,7 @@ const Email = styled.a`
   color: #27ace2;
   cursor: pointer;
   font-size: 32px;
+  text-decoration: none;
 `;
 
 export {
