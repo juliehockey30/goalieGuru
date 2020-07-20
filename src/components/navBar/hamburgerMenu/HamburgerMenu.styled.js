@@ -1,21 +1,29 @@
 import styled from 'styled-components'
 
 const HamburgerWrapper = styled.div`
+  background-color: #373739;
   display: flex;
   flex-direction: row;
-  margin: 20px;
-  position: absolute;
+  margin: 0;
+  padding: 16px;
+  position: fixed;
   right: 0;
   top: 0;
+
+  @media(min-width: 1024px) {
+    display: none;
+  }
 `;
 
 const HamburgerMenuItemWrapper = styled.ul`
-  background-color: black;
+  background-color: #373739;
   color: white;
+  font-size: ${props => props.selected ? '24px' : '20px'};
+  font-style: ${props => props.selected ? 'italic' : 'none'};
   list-style: none;
   margin-top: 0;
   padding: 0;
-  position: absolute;
+  position: fixed;
   right: 0;
   top: 50px;
   width: 50%;

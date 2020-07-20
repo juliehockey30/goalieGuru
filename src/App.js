@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { AppWrapper, FooterImage } from './App.styled.js';
 import Marquee from './components/marquee/Marquee.js';
 import NavBar from './components/navBar/NavBar.js';
+import HamburgerMenu from './components/navBar/hamburgerMenu/HamburgerMenu.js';
 import About from './components/about/About.js';
 import Camps from './components/camps/Camps.js';
 import Testimonials from './components/testimonials/Testimonials.js';
@@ -32,6 +33,7 @@ class App extends Component {
     return (
       <AppWrapper >
         <NavBar scrollToElement={this.scrollToElement}/>
+        <HamburgerMenu scrollToElement={this.scrollToElement}/>
         <Marquee />
         <About />
         <Camps />
