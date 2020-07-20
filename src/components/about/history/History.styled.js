@@ -2,18 +2,16 @@ import styled from 'styled-components';
 
 const Wrapper = styled.div`
   background-color: #d9dce2;
+  border-radius: 6px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 16px;
 
   @media(min-width: 1024px) {
-    align-items: center;
-    border-radius: 6px;
-    color: #373739;
-    display: flex;
-    flex-direction: column;
-    font-weight: 700;
     height: 512px;
     justify-content: center;
-    margin: 0 150px;
-    padding: 0 24px 24px 24px;
+    margin: 0 10%;
+    padding: 24px;
   }
 `;
 
@@ -44,14 +42,15 @@ const JobTime = styled.p`
 `;
 
 const LogoWrapper = styled.div`
-
-  @media(min-width: 1024px) {
-    display: flex;
-    flex-direction: row;
-  }
+  display: flex;
+  flex-direction: row;
+  margin: 0 auto 32px auto;
 `;
 
 const JobLogo = styled.img`
+  margin: 0 18px;
+  max-height: 50px;
+  max-width: 300px;
 
   @media(min-width: 1024px) {
     margin: 0 56px;

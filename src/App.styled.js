@@ -18,10 +18,7 @@ const AppWrapper = styled.div`
 `;
 
 const FooterImage = styled.img`
-
-  @media(min-width: 1024px) {
-    width: 100%;
-  }
+  width: 100%;
 `;
 
 export {
