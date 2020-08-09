@@ -1,9 +1,9 @@
 import styled from 'styled-components';
 
 const Wrapper = styled.div`
-border: 3px solid #373739;
-border-radius: 8px;
-margin: 32px 18px;
+  border: 3px solid #373739;
+  border-radius: 8px;
+  margin: 32px 18px;
 
   @media(min-width: 1024px) {
     border: 6px solid #373739;
@@ -23,7 +23,18 @@ const Header = styled.p`
   }
 `;
 
+const CardsWrapper = styled.div`
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  @media(min-width: 1024px) {
+    flex-direction: row;
+  }
+`;
+
 export {
   Wrapper,
-  Header
+  Header,
+  CardsWrapper
 };

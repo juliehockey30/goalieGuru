@@ -9,12 +9,12 @@ const Wrapper = styled.div`
   flex-direction: column;
   height: 300px;
   justify-content: center;
-  margin: 48px auto;
+  margin: 18px auto;
   width: 300px;
 
   @media(min-width: 1024px) {
     height: 400px;
-    margin: 48px auto;
+    margin: 24px auto;
     width: 400px;
   }
 `;
@@ -23,6 +23,7 @@ const Title = styled.p`
   font-size: 24px;
   font-weight: 900;
   margin: 8px 0 12px 0;
+  text-align: center;
 
   @media(min-width: 1024px) {
     font-size: 48px;

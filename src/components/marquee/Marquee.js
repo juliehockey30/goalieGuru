@@ -5,7 +5,9 @@ import {
   MarqueeWrapper,
   MarqueeGradient,
   MarqueeLogo,
-  MarqueeImage
+  MarqueeImage,
+  TaglineOne,
+  TaglineTwo
 } from './Marquee.styled.js';
 
 class Marquee extends Component {
@@ -20,6 +22,8 @@ class Marquee extends Component {
         <MarqueeGradient>
           <MarqueeLogo src={logo2} />
           <MarqueeImage src={mountains} />
+          <TaglineOne>Trust the Process</TaglineOne>
+          <TaglineTwo>1% Better, Every Day</TaglineTwo>
         </MarqueeGradient>
       </MarqueeWrapper>
     );

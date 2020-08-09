@@ -40,9 +40,47 @@ const MarqueeLogo = styled.img`
   }
 `;
 
+const TaglineOne = styled.p`
+  background-color: #27ace2;
+  border: 8px solid black;
+  left: 5%;
+  opacity: 75%;
+  padding: 12px;
+  position: absolute;
+  top: 70px;
+
+  @media(min-width: 1024px) {
+    font-size: 52px;
+    font-weight: 900;
+    left: 36%;
+    padding: 24px;
+    top: 250px;
+  }
+`;
+
+const TaglineTwo = styled.p`
+  background-color: #27ace2;
+  border: 8px solid black;
+  left: 50%;
+  opacity: 75%;
+  padding: 12px;
+  position: absolute;
+  top: 70px;
+
+  @media(min-width: 1024px) {
+    font-size: 52px;
+    font-weight: 900;
+    left: 34%;
+    padding: 24px;
+    top: 400px;
+  }
+`;
+
 export {
   MarqueeWrapper,
   MarqueeGradient,
   MarqueeImage,
-  MarqueeLogo
+  MarqueeLogo,
+  TaglineOne,
+  TaglineTwo
 };
